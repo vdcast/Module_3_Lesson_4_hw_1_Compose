@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Module_3_Lesson_4_hw_1_Composee</string>
+    <string name="text_intro">In this App you can get some facts about cats.\nPress button to see a fact :)</string>
 </resources>
