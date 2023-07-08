@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        var retrofit = RetrofitClient.getClient("https://catfact.ninja/")
+        val retrofit = RetrofitClient.getClient("https://catfact.ninja/")
             .create(API::class.java)
 
         setContent {
